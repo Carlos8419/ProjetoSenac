@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body{
+	background-color: pink; }
+
+/*primeiro numero é o superior, o auto é direita, o 0 é inferior e o auto é esquerda*/
+
+div#principal {
+	width: 1000px;
+	background: #fff;
+	margin: -21.4px  auto 0px auto; 
+	box-shadow: 1px 1px 50px black; 
+	border: 8px solid; 
+	padding: 10px;
+	text-align: justify;  
+}
+
+header#topo{
+	height: 350px;}
+
+nav#menu{
+	display: block; }
+
+nav#menu ul{
+	list-style: none; 
+	text-transform: uppercase; 
+	position: absolute; 
+	top:10px; 
+	left: 500px; 
+}
+
+nav#menu li{
+	display: inline-block; 
+	background-color: #dddddd; 
+	padding: 5px; 
+	margin: 10px;
+}
+
+nav#menu li a{
+	text-decoration: none; /*tirar o sublinhado*/
+	color: #000; 
+}
+
+nav#menu li a:hover {
+	text-decoration: underline; /*Ao passar o mouse as letras voltam a serem sublinhadas*/
+}
+
+section#not_principal{
+	display: block; 
+	width: 450px; 
+	float: left; /*flutuar para o lado direito*/
+	border-right: 3px solid #000080;  /*Linha vertical da página */
+	padding: 10px; 
+}
+
+section#not_principal h3{
+	color: #fff;
+	background-color: #000080;
+	text-align: center;
+	padding: 5px;
+	font-size: 18px; 
+}
+
+aside#lateral{
+	display: block;
+	width: 510px;
+	float: right;  /*flutuar para o lado esquerdo*/
+	padding: 10px; 
+}
+
+aside#lateral h3{
+	color: #fff;
+	background-color: #000080;
+	text-align: center;
+	padding: 5px;
+	font-size: 18px; 
+	margin-bottom: 2px; 
+}
+
+aside#lateral{
+	text-align: center;
+	padding: 5px;
+	font-size: 16px; 
+}
+
+video.filme {
+	width: 290px;
+	height: 150;
+}
+
+p{
+  text-align: justify; 	
+	text-indent: 15px;
+}
+
+footer#rodape p{
+	text-align: center;
+}
+
+footer#rodape a{
+	 color: #000;
+	 text-decoration:none; 
+}
+
+footer{
+	clear:both; /*sair da divisão da section e aside*/
+	border-top: 1px solid #000080;
+	box-shadow: 1px 1px 50px blue; 
+	background-color: #00ffff; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

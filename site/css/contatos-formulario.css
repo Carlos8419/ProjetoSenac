@@ -1,0 +1,64 @@
+
+form{
+	width:800px; 
+	margin:auto; 
+	
+}
+
+input, textarea{
+	font-family:verdana; 
+	font-size:13px;
+	
+	
+}
+
+legend{
+	color:blue; 
+	font-weight:bold; 
+	font-size:13pt;
+}
+
+fieldset#sexo{
+	width:180px;
+	font-family:verdana; 
+	font-size:13px;
+	
+	
+}
+
+fieldset#usuario{
+	background:url("../imagens/icontato.png") no-repeat 95% 95%;
+	
+	
+}
+
+fieldset#endereco{
+	background:url("../imagens/icone-endereco.png") no-repeat 95% 95%;
+	
+	
+}
+
+fieldset#mensagem{
+	background:url("../imagens/icone-mensagem.png") no-repeat 95% 95%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
